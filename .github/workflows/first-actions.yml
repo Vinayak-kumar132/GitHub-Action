@@ -44,10 +44,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3  # it is not configuration,it is plugins
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v2  # python plugins
       with:
         python-version: ${{ matrix.python-version }}
 
