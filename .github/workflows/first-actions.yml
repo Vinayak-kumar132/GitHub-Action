@@ -36,7 +36,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted  # Uses a self-hosted runner   and ubuntu-latest for github hosted
+    runs-on: ubuntu-latest  # Uses a self-hosted runner   and ubuntu-latest for github hosted
 
     strategy:
       matrix:
